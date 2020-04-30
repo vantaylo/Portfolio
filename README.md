@@ -1,7 +1,5 @@
 # Portfolio
-Portfolio Website
-
-Minimum Requirements:
+Portfolio Website Minimum Requirements:
 
 Functional, deployed application
 
