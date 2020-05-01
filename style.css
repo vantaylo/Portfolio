@@ -89,6 +89,21 @@ strong {
   transform: scale(1.1);
 }
 
+.btn-success {
+  background-color: #cca88b;
+  border-color: #cca88b;
+}
+
+.btn-success:hover {
+  background-color: #535353;
+  border-color: #535353;
+}
+
+.btn-success:active:focus {
+  background-color: #535353;
+  border-color: #535353;
+}
+
 /* Typography */
 
 h1,
