@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Update these with your own fonts -->
     <link
@@ -14,13 +15,9 @@
       rel="stylesheet"
     />
     
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="logo">
-        <!-- <img src="img/devjane.png" alt="" /> -->
-      </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
       </button>
@@ -36,9 +33,6 @@
           <li class="nav__item">
             <a href="#work" class="nav__link">My Work</a>
           </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
         </ul>
       </nav>
     </header>
@@ -53,7 +47,7 @@
       </p>
       <img
         src="img/dev-vanessa-01.jpg"
-        alt="a picture of Jane Smith smiling"
+        alt="a picture of Vanessa Taylor smiling"
         class="intro__img"
       />
     </section>
@@ -93,7 +87,7 @@
     <section class="about-me" id="about">
       <h2 class="section__title section__title--about">Who I am</h2>
       <p class="section__subtitle section__subtitle--about">
-        Cultural curator turned <strong>Software Engineer</strong>
+        Operations guru turned <strong>Software Engineer</strong>
       </p>
 
       <div class="about-me__body">
@@ -117,9 +111,11 @@
     <!-- My Work -->
     <section class="my-work" id="work">
       <h2 class="section__title section__title--work">My work</h2>
-      <p class="section__subtitle section__subtitle--work">
-        A selection of my range of work
-      </p>
+      <div>
+        <h3>Resume</h3>
+        <iframe src="VanessaTaylor_SoftwareEngineer_Resume copy.pdf" width="100%" height="500px">
+        </iframe>
+      </div>
 
       <div class="portfolio">
         <!-- Portfolio item 01 -->
@@ -128,18 +124,18 @@
         </a>
 
         <!-- Portfolio item 02 -->
-        <a href="" class="portfolio__item">
-          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
+        <a href="https://wedding-planner-platform.herokuapp.com/" class="portfolio__item">
+          <img src="img/WeddingPlanner_screenshot.png" alt="" class="portfolio__img" />
         </a>
 
         <!-- Portfolio item 03 -->
         <a href="" class="portfolio__item">
-          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+          <img src="img/ComingSoon_screenshot.png" alt="" class="portfolio__img" />
         </a>
 
     </section>
 
-    <!-- Contact -->
+    <!-- Contact
   <section id="contact">
     <div class="container">
       <h2 class="text-center">Get in touch</h2>
@@ -184,7 +180,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
     <!-- Footer -->
